@@ -1,0 +1,24 @@
+@media screen and (max-width:576px) {
+
+    *{
+        box-sizing: border-box;
+    }
+    .nav-container{
+        margin-top: 170px;
+        /* margin-bottom: 62px; */
+        flex-direction: column;
+    }
+
+    /* .gaming-title{
+        margin-top: 103px;
+    } */
+
+    .nav-menus{
+        margin-top: 62px;
+        flex-direction: column;
+    }
+
+    .nav-menus .nav-btn{
+        margin-top: 62px;
+    }
+}
