@@ -47,7 +47,67 @@
         height: 300px;
     }
 
+    .banner-2{
+        margin: auto;
+        margin-top: 222px;
+        padding: 40px;
+        flex-direction: column;
+        background: none;
+    }
+
+    .banner-2-image-img{
+        width: 300px;
+        height: 270px;
+        margin-bottom: 20px;
+    }
+
+    .banner-2-text{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .banner-2-p1{
+        font-size: 12px;
+        /* font-weight: 400; */
+        /* line-height: 30px; */
+        /* padding-top: 24px; */
+    }
+
+    .banner-2-p3{
+        font-size: 25px;
+        /* font-weight: 700; */
+        /* line-height: 45px; */
+    }
+
+    .funny-item-container{
+        height: auto;
+        padding: 40px;
+    }
+
+    .funny-games-text{
+        margin-top: 40px;
+    }
+
+    .funny-games-heading{
+        margin-top: 143px;
+        font-size: 30px;
+    }
+
+    .funny-games-para{
+        font-size: 12px;
+        /* line-height: 20px; */
+    }
+
+    .funny-games-items{
+        flex-direction: column;
+        gap: 50px;
+    }
+  
 }
+
+
+
+
 
 
     

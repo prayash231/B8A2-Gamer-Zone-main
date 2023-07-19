@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -97,7 +98,7 @@ body{
 /* banner section starts here */
 
 .banner-1{
-    width: 1440px;
+    max-width: 1440px;
     height: 500px;
     /* border: 1px solid red; */
     display: flex;
@@ -114,9 +115,9 @@ body{
     height: 700px;   */
 
     
-        background-image: linear-gradient(223deg, rgba(89, 23, 213, 0.03) 0%, rgba(229, 11, 146, 0.03) 100%), url("./images/Group-14.png") no-repeat;
-        width: 901px;
-        height: 700px;
+    
+
+        background-image: url("./images/Group-14.png");
     
 }
 
@@ -154,6 +155,8 @@ body{
     border: none;
     border-radius: 48px;
     background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .banner-text-btn-2{
@@ -162,6 +165,8 @@ body{
     border-radius: 48px;
     background: #4EC5F7;
     color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
     margin-left: 20px;
 }
 
@@ -169,3 +174,108 @@ body{
     width: 500px;
     height: 500px;
 }
+
+
+.banner-2{
+    max-width: 1440px;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+
+.banner-2-image-img{
+    width: 500px;
+    height: 450px;
+}
+
+.banner-2-text{
+    text-align: right;
+}
+
+.banner-2-text button{
+    margin-top: 32px;
+}
+
+.banner-2-h2{
+    font-size: 48px;
+    font-weight: 700;
+  
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-2-p1{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+.banner-2-p2{
+    color: #534C64;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-2-p3{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* funny games section starts here */
+
+.funny-games-container{
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.funny-games-text{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.funny-games-items{
+   margin-top: 48px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.funny-games-img{
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+}
+
+.funny-games-heading{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.fun-video{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-games-para{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
