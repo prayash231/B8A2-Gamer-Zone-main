@@ -336,7 +336,7 @@ body{
     line-height: 60px;
 }
 
-.play-container-spa{
+.play-container-span{
     /* background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -437,11 +437,13 @@ body{
 /* footer section starts here */
 
 .footer-section{
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
+    /* border: none; */
     max-width: 1440px;
     height: 636px;
     margin: 0 auto;
     background-color: #0B0223;
+
 }
 
 .footer-section .gaming-title{
@@ -511,5 +513,7 @@ body{
     font-weight: 500;
     margin-top: 28px;
 }
+
+
 
 
