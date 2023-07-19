@@ -51,6 +51,8 @@ body{
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    /* background: #FFF; */
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .nav-menus{
@@ -90,4 +92,80 @@ body{
     justify-content: center;
     align-items: center;
     /* gap: 24px; */
+}
+
+/* banner section starts here */
+
+.banner-1{
+    width: 1440px;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    /* box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);  */
+}
+
+
+.banner-text{
+    /* background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%), url("./images/Group-14.png");
+    width: 901px;
+    height: 700px;   */
+
+    
+        background-image: linear-gradient(223deg, rgba(89, 23, 213, 0.03) 0%, rgba(229, 11, 146, 0.03) 100%), url("./images/Group-14.png") no-repeat;
+        width: 901px;
+        height: 700px;
+    
+}
+
+.banner-text-p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+
+.banner-text-h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner-text-h1{
+  font-size: 95px;
+  font-weight: 800;
+
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+.banner-text-btn-1{
+    padding: 17px 40px;
+    /* gap: 10px; */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 48px;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.banner-text-btn-2{
+    padding: 17px 40px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.banner-image-img{
+    width: 500px;
+    height: 500px;
 }
