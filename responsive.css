@@ -140,13 +140,15 @@
         padding-top: 12px;
     }
 
-    .play-container-span{
-
-    }
+    /* .play-container-span{
+       margin-top: ;
+    } */
 
     .games-btn{
         height: auto;
         padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
 
     .games-btn button{
@@ -331,13 +333,15 @@
         padding-top: 12px;
     }
 
-    .play-container-span{
+    /* .play-container-span{
         
-    }
+    } */
 
     .games-btn{
         height: auto;
         padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
 
     .games-btn button{
