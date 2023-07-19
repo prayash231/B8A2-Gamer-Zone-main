@@ -157,6 +157,7 @@ body{
     background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .banner-text-btn-2{
@@ -168,6 +169,7 @@ body{
     font-size: 20px;
     font-weight: 600;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .banner-image-img{
@@ -282,16 +284,19 @@ body{
 /* play container starts here */
 .play-container{
     max-width: 1440px;
-    height: 600px;
+    height: 1000px;
+    border: 1px solid blue;
+    border: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    padding-bottom: 250px;
 }
 
 .play-container-text{
     width: 30%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -351,4 +356,160 @@ body{
     line-height: 30px;
     padding-top: 24px;
 }
+
+/* games btn section starts here */
+
+/* .games-btn-container{
+    border: 1ps solid red;
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 300px;
+    display: flex;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    
+} */
+
+/* .games-btn-container{
+    max-width: 1440px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.games-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.games-btn button{
+    margin: 10px;
+} */
+
+.games-btn{
+    border: 1px solid red;
+    border: none;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    /* margin-top: 400px; */
+    max-width: 1440px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.games-btn button{
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    background: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 20px; */
+    cursor:pointer;
+}
+
+.games-btn button:hover{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border: 1px solid #FF42A5;
+}
+
+.games-btn a{
+    text-decoration: none;
+    color: #0B0223;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* footer section starts here */
+
+.footer-section{
+    border: 1px solid red;
+    max-width: 1440px;
+    height: 636px;
+    margin: 0 auto;
+    background-color: #0B0223;
+}
+
+.footer-section .gaming-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.footer-section h3{
+   color: #FFF;
+   text-align: center;
+}
+
+.footer-section .footer-options{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* align-items: center; */
+    margin-top: 56px;
+    
+    /* align-content: center; */
+}
+
+.footer-options a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-section .footer-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+    gap: 40px;
+}
+
+.footer-btn button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    /* color: #FFFFFF; */
+    border-radius: 10px;
+
+    /* margin: 10px;
+    padding: 10px; */
+}
+
+.footer-section .footer-privacy{
+    display: flex;
+    justify-content: center;
+    margin-top: 74px;
+    gap: 60px;
+}
+
+.footer-privacy a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-section p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+
 
