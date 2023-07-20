@@ -363,6 +363,7 @@
         display: grid;
         grid-template-columns: repeat(3, 2fr);
         gap: 10px;
+        margin-left: 50px;
     }
 
     .games-btn button{
