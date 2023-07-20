@@ -105,6 +105,8 @@ body{
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    /* padding-left: 240px;
+    padding-right: 240px; */
     /* box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);  */
 }
 
@@ -117,7 +119,12 @@ body{
     
     
 
-        background-image: url("./images/Group-14.png");
+        /* background-image: url("./images/Group-14.png"); */
+
+        height: 400px;
+        background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%), url("/images/Group-14.png") no-repeat center, rgb(230, 173, 228);
+        background-size: cover;
+    
     
 }
 
@@ -182,6 +189,7 @@ body{
     max-width: 1440px;
     height: 600px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -199,7 +207,7 @@ body{
     text-align: right;
 }
 
-.banner-2-text button{
+.banner-2-text .banner-text-btn-1{
     margin-top: 32px;
 }
 
@@ -217,7 +225,7 @@ body{
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    /* line-height: 30px; */
     padding-top: 24px;
 }
 
@@ -274,7 +282,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-.funny-games-para{
+.funny-games-p-graph{
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
