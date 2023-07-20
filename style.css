@@ -269,6 +269,14 @@ body{
     border-radius: 16px;
 }
 
+.funny-games-img:hover{
+    /* background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%,
+     rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+     background-image: overlay; */
+     background-color: #F948B2;
+     transition: background-color 0.3s;
+}
+
 .funny-games-heading{
     color: #0B0223;
     font-size: 48px;
